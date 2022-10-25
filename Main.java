@@ -1,12 +1,13 @@
 class Main {
+  
+  public static int addition(int num1, int num2) {
+    return num1 + num2;
+  }
+  
+  
+  
+  
   public static void main(String[] args) {
-    int num = 3;
-    num += 3; //This is the same as --> num = num + 3;
-      System.out.println(num);
-    num -= 3;
-      System.out.println(num);
-    num ++; /*This gives the most recent value of num and     
-    adds it with 1*/
-      System.out.println(num);
+    System.out.println(addition(100, 140));
   }
 }
